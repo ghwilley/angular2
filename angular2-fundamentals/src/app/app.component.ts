@@ -9,5 +9,9 @@ import { Component, Inject } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 
+  onUpdate(event) {
+    console.log()
+  }
+
   constructor(@Inject('mail') private mail) {};
 }
